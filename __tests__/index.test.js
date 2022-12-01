@@ -3,7 +3,7 @@ import Home from "../pages/index";
 import "@testing-library/jest-dom";
 
 describe("Home", () => {
-  it("renders home h1", () => {
+  it("renders Home", () => {
     render(<Home />);
 
     const parameter = true;
