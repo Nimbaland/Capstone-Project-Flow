@@ -2,7 +2,6 @@
 import styled from "styled-components";
 
 export default function AsanaCard({asana}) {
-  console.log(asana.image);
   return (
     <article>
       <TheImage
