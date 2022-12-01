@@ -2,14 +2,14 @@ import styled from "styled-components";
 
 // This is a demo component to demonstrate Styled Components integration
 
-export function OctopusCard({octopus}) {
+export const OctopusCard = ({octopus}) => {
   return (
     <StyledCard color={octopus.color}>
       <h1>🐙 {octopus.name}</h1>
       <p>Age: {octopus.age}</p>
     </StyledCard>
   );
-}
+};
 
 const StyledCard = styled.div`
   display: flex;
