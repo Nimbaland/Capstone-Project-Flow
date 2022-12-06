@@ -7,15 +7,14 @@ export default function AsanaCard({asana}) {
   return (
     <Article>
       <StyledImage
-        width="200"
-        height="600"
+        width="250"
+        height="550"
         src={asana.image}
         alt={`yoga pose: ${asana.sanskrit}`}
         priority
       />
       <StyledAsanaCard>{AsanaCard}</StyledAsanaCard>
       <StyledSanskrit>{asana.sanskrit}</StyledSanskrit>
-      <StyledSanskrit>{asana.sanskrit2}</StyledSanskrit>
       <ButtonContainer>
         <Button>
           <Image
@@ -43,12 +42,11 @@ export default function AsanaCard({asana}) {
 
 const StyledAsanaCard = styled.article`
   margin: 0;
-  margin-top: 10px;
+  margin-top: 0.625rem;
 `;
 
 const StyledImage = styled(Image)`
   padding: 18rem 1rem 0 1rem;
-  width: 300px;
 `;
 const Article = styled.article`
   border-radius: 75px;
@@ -70,9 +68,9 @@ const Article = styled.article`
 
 const Button = styled.div`
   border-radius: 100%;
-  width: 50px;
-  height: 50px;
-  margin: 0px 35px;
+  width: 3.125rem;
+  height: 3.125rem;
+  margin: 2.188rem;
   background: rgba(255, 255, 255, 0.02);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(1.5px);
@@ -82,14 +80,16 @@ const Button = styled.div`
 
 const ButtonContainer = styled.div`
   display: flex;
-  padding-top: 15px;
-  margin-bottom: 50px;
+  padding-top: 0.938rem;
+  margin-bottom: 3.125rem;
 `;
 
-const ButtonContent = styled.div``;
+const ButtonContent = styled.div`
+  display: flex;
+`;
 
 const StyledSanskrit = styled.span`
-  font-size: 12px;
+  font-size: 0.75rem;
   color: lightblue;
-  padding-bottom: 20px;
+  padding-bottom: 1.25rem;
 `;
