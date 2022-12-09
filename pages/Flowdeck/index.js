@@ -1,6 +1,3 @@
-import styled from "styled-components";
-import AsanaCard from "../../components/AsanaCard";
-
 export default function FavoriteAsanaCard({asanas, setAsana}) {
   function deleteSpot(id) {
     setAsana(asanas => {
@@ -8,9 +5,9 @@ export default function FavoriteAsanaCard({asanas, setAsana}) {
       return newAsanaCardList;
     });
   }
-
+  console.log(deleteSpot);
   function toggleFavorite(id) {
-    const newAsanaCardArray = asanas.map(asana => {
+    const newAsanaCardArray = asanas.map(asanas => {
       if (asanas.id === id) {
         return {
           ...asanas,
@@ -22,4 +19,5 @@ export default function FavoriteAsanaCard({asanas, setAsana}) {
     });
     setAsana(newAsanaCardArray);
   }
+  console.log(toggleFavorite(1));
 }
