@@ -2,176 +2,201 @@
   {
     "id": "1",
     "name": "Upward facing pose",
-    "sanskrit": "Urdhva Mukha Svanasana (OORD-vah MOO-kah shvon-AHS-anna)",
-    "image": "/../../Images/1_Upward_facing_dog.svg",
+    "sanskrit": "Urdhva Mukha Svanasana",
+    "sanskrit2": "(OORD-vah MOO-kah shvon-AHS-anna)",
+    "image": "/Images/1_Upward_facing_dog.svg",
     "benefits": "Upward-Facing Dog is an energy-boosting posture that may help relieve lower back pain. It can also help counteract slouching and kyphosis (the abnormal curvature of the spine). It is a great posture to counteract the effects of prolonged sitting."
   },
   {
     "id": "2",
     "name": "Plow pose",
-    "sanskrit": "Halasana (hah-LAHS-ah-nah)",
-    "image": "/../../Images/2_Plow_pose.svg",
+    "sanskrit": "Halasana",
+    "sanskrit2": "(hah-LAHS-ah-nah)",
+    "image": "/Images/2_Plow_pose.svg",
     "benefits": "This pose can create a relaxed and focused energy. Additionally, it stretches the entire back of your body, including the back of the thighs (hamstrings), buttocks (glutes), shoulders, and neck."
   },
   {
     "id": "3",
     "name": "Crunches",
     "sanskrit": "-",
-    "image": "/../../Images/3_Crunches.svg",
+    "sanskrit2": "-",
+    "image": "/Images/3_Crunches.svg",
     "benefits": ""
   },
   {
     "id": "4",
     "name": "Downward_facing_dog",
-    "sanskrit": "Adho Mukha Svanasana (AH-doh MOO-kah shvah-NAHS-anna)",
-    "image": "/../../Images/4_Downward_facing_pose.svg",
+    "sanskrit": "Adho Mukha Svanasana",
+    "sanskrit2": "(AH-doh MOO-kah shvah-NAHS-anna)",
+    "image": "/Images/4_Downward_facing_pose.svg",
     "benefits": "Downward-Facing Dog Pose can help you recover after sports and activities like running. It improves posture, circulation, and counteracts the effects of prolonged sitting."
   },
   {
     "id": "5",
     "name": "Half_bow",
-    "sanskrit": "Ardha Dhanurasana (ARE-dah don-your-AHS-anah)",
-    "image": "/../../Images/5_Half_bow.svg",
+    "sanskrit": "Ardha Dhanurasana",
+    "sanskrit2": "(ARE-dah don-your-AHS-anah)",
+    "image": "/Images/5_Half_bow.svg",
     "benefits": "Half bow energizes and strengthens the entire body, and especially builds core body strength. Half bow stimulates the kidneys, adrenals and reproductive system. Contraindications: Recent or chronic injury to the legs, hips, neck or arms; pregnancy, recent abdominal surgery."
   },
   {
     "id": "6",
     "name": "Side plank",
-    "sanskrit": "Vasisthasana (vah-sish-TAHS-anna)",
-    "image": "/../../Images/6_Side_plank.svg",
+    "sanskrit": "Vasisthasana",
+    "sanskrit2": "(vah-sish-TAHS-anna)",
+    "image": "/Images/6_Side_plank.svg",
     "benefits": "A challenging arm balance, this pose strengthens the wrists, arms, belly, and legs. It also stretches the backs of the legs and improves your sense of balance."
   },
   {
     "id": "7",
     "name": "Jackknife sit up",
     "sanskrit": "Padahastasana",
-    "image": "/../../Images/7_Jackknife_sit_up.svg",
+    "sanskrit2": "-",
+    "image": "/Images/7_Jackknife_sit_up.svg",
     "benefits": "Jackknife exercises are designed to strengthen the upper and lower abdominal muscles, particularly the transversus abdominis muscle. There are a number of variations of jackknife exercises that allow people of different ages and ability to work their abdominal muscles."
   },
   {
     "id": "8",
     "name": "Embryos pose",
     "sanskrit": "Garbhasana",
-    "image": "/../../Images/8_Embryos_pose.svg",
+    "sanskrit2": "-",
+    "image": "/Images/8_Embryos_pose.svg",
     "benefits": "Like every physical technique/posture of yoga, pindasana combines physical,mentel and spiritual aspects of the body and has a plethora of advantages"
   },
   {
     "id": "9",
     "name": "Triangle",
-    "sanskrit": "Trikonasana (Tree-kone-nah -sah-nah)",
-    "image": "/../../Images/9_Triangle.svg",
+    "sanskrit": "Trikonasana",
+    "sanskrit2": "(Tree-kone-nah -sah-nah)",
+    "image": "/Images/9_Triangle.svg",
     "benefits": "Increases stability. The extended triangle pose activates your core muscles, which aids in balance and stability."
   },
   {
     "id": "10",
     "name": "Reverse table",
-    "sanskrit": "Ardha Purvottanasana (Are-dah -pur-voh-tun-ahs-anna)",
-    "image": "/../../Images/10_Reverse_table.svg",
+    "sanskrit": "Ardha Purvottanasana",
+    "sanskrit2": "(Are-dah -pur-voh-tun-ahs-anna)",
+    "image": "/Images/10_Reverse_table.svg",
     "benefits": "Reverse tabletop pose, sometimes called crab pose, opens the chest and tones the low back to stimulate the respiratory and endocrine systems. Reverse tabletop pose also builds arm, leg and core body strength."
   },
   {
     "id": "11",
     "name": "Seated forward fold",
-    "sanskrit": "Paschimottanasana (POSH-ee-moh-tan-AHS-anna)",
-    "image": "/../../Images/11_Seated_forward_fold.svg",
+    "sanskrit": "Paschimottanasana",
+    "sanskrit2": "(POSH-ee-moh-tan-AHS-anna)",
+    "image": "/Images/11_Seated_forward_fold.svg",
     "benefits": " This posture provides a deep stretch to the spine, inner thighs (adductors), calf muscles, and hamstrings. By calming the mind, this pose may alleviate some symptoms of anxiety."
   },
   {
     "id": "12",
     "name": "Upward salut",
-    "sanskrit": "Urdhva Hastasana (OORD-vah hahs-TAHS-ah-nah)",
-    "image": "/../../Images/12_Upward_salut.svg",
+    "sanskrit": "Urdhva Hastasana",
+    "sanskrit2": "(OORD-vah hahs-TAHS-ah-nah)",
+    "image": "/Images/12_Upward_salut.svg",
     "benefits": "As a belly-stretching pose, Upward Salute can help improve your digestion. It is also a great pose for stretching the shoulders and arms."
   },
   {
     "id": "13",
     "name": "Revolved side angle",
-    "sanskrit": "Parivrtta Parsvakonasana (PAHR-ee-VREE-tah PARZH-vuh-ko-NAHS-uh-nuh)",
-    "image": "/../../Images/13_Revolved_side_angle.svg",
+    "sanskrit": "Parivrtta Parsvakonasana",
+    "sanskrit2": "(PAHR-ee-VREE-tah PARZH-vuh-ko-NAHS-uh-nuh)",
+    "image": "/Images/13_Revolved_side_angle.svg",
     "benefits": "Revolved Side Angle stretches, tones, and strengthens the entire body, inside and out. It stretches the thighs, knees, ankles, calves, groins, chest, and shoulders. This pose builds strength in the legs, as well, particularly in the quadriceps and ankles. It also stimulates and tones the abdominal organs and lungs, which improves digestion, elimination, metabolism, and breathing capacity."
   },
   {
     "id": "14",
     "name": "Fly",
-    "sanskrit": "",
-    "image": "/../../Images/14_Fly.svg",
+    "sanskrit": "-",
+    "sanskrit2": "-",
+    "image": "/Images/14_Fly.svg",
     "benefits": ""
   },
   {
     "id": "15",
     "name": "Sphinx pose",
     "sanskrit": "Ardha Bhujangasana",
-    "image": "/../../Images/15_Sphinx_pose.svg",
+    "sanskrit2": "-",
+    "image": "/Images/15_Sphinx_pose.svg",
     "benefits": "With the Sphinx you stretch the pectoral muscles (Pectorales Major) and the entire front of the body. The back (erector spinae, latissimus dorsi, trapezius) and gluteal muscles (gluteus maximus) are strengthened."
   },
   {
     "id": "16",
     "name": "Half forward bend",
     "sanskrit": "Ardha Uttanasana",
-    "image": "/../../Images/16_Half_forward_bend.svg",
+    "sanskrit2": "-",
+    "image": "/Images/16_Half_forward_bend.svg",
     "benefits": "In Sanskrit, Ardha Uttanasana means intense half stretch pose. The pose certainly gives your hamstrings a great stretch,but it also encourages good spinal alignment. Forward bends also stimulate your abdominal organs and promote good digestion."
   },
   {
     "id": "17",
     "name": "Revolved chair",
     "sanskrit": "Parivrtta Utkatasana",
-    "image": "/../../Images/17_Revolved_chair.svg",
+    "sanskrit2": "-",
+    "image": "/Images/17_Revolved_chair.svg",
     "benefits": "Strengthens and grounds your legs and hips, brings length and lightness to your spine, expands your chest"
   },
   {
     "id": "18",
     "name": "Locust",
-    "sanskrit": "Salabhasana (sha-la-BAHS-anna)",
-    "image": "/../../Images/18_Locust.svg",
+    "sanskrit": "Salabhasana",
+    "sanskrit2": "(sha-la-BAHS-anna)",
+    "image": "/Images/18_Locust.svg",
     "benefits": "Locust Pose improves posture and counteracts the effects of prolonged sitting. It may help relieve lower back pain and can counteract slouching and kyphosis (abnormal curvature of the spine)."
   },
   {
     "id": "19",
     "name": "Half moon",
-    "sanskrit": "Ardha Chandrasana (are-dah chan-DRAHS-anna)",
-    "image": "/../../Images/19_Half_moon.svg",
+    "sanskrit": "Ardha Chandrasana",
+    "sanskrit2": "(are-dah chan-DRAHS-anna)",
+    "image": "/Images/19_Half_moon.svg",
     "benefits": "Half Moon Pose improves balance and counteracts the effects of sitting."
   },
   {
     "id": "20",
     "name": "Sundial salutation",
     "sanskrit": "Surya Yantrasana",
-    "image": "/../../Images/20_Sundial_salutation.svg",
+    "sanskrit2": "-",
+    "image": "/Images/20_Sundial_salutation.svg",
     "benefits": "The practice of this seated twist pose - Surya Yantrasana (Compass Pose) is a combination of twists to both the upper body (shoulders) and the lower body (hips) and when practiced in the right way brings in many benefits."
   },
   {
     "id": "21",
     "name": "Puppy pose",
     "sanskrit": "Uttana Shishosana",
-    "image": "/../../Images/21_Puppy_pose.svg",
+    "sanskrit2": "-",
+    "image": "/Images/21_Puppy_pose.svg",
     "benefits": "Stretches the spine, shoulders, upper back, arms and abdominal muscles. As a slight inversion, with the heart just higher than the head, this pose can foster a sense of calmness in the body, relieving stress and anxiety. Releases tension in you upper arms, shoulders, and neck."
   },
   {
     "id": "22",
     "name": "Elbow to knee",
-    "sanskrit": "Phalakasana, (pha-lah-ka-suh-nuh)",
-    "image": "/../../Images/22_Elbow_to_knee.svg",
+    "sanskrit": "Phalakasana",
+    "sanskrit2": "(pha-lah-ka-suh-nuh)",
+    "image": "/Images/22_Elbow_to_knee.svg",
     "benefits": "The knee to elbow kickback is a full body exercise that tightens the core, strengthens the glutes, and tones the hamstrings, quads, hips, shoulders, and arms. This exercise helps to improve the posture, slims down the waist, and increases core strength and stability."
   },
   {
     "id": "23",
     "name": "High lunge",
     "sanskrit": " Ashta Chandrasana ",
-    "image": "/../../Images/23_High_lunge.svg",
+    "sanskrit2": "-",
+    "image": "/Images/23_High_lunge.svg",
     "benefits": "High Lunge can be practiced to help relieve indigestion and constipation. It can also help ease symptoms of sciatica."
   },
   {
     "id": "24",
     "name": "Wide Legged Forward Bend",
-    "sanskrit": "Prasarita Padottanasana (pra-sa-REE-tah pah-doh-tahn-AHS-anna)",
-    "image": "/../../Images/24_Wide_Legged_Forward_Bend.svg",
+    "sanskrit": "Prasarita Padottanasana",
+    "sanskrit2": "(pra-sa-REE-tah pah-doh-tahn-AHS-anna)",
+    "image": "/Images/24_Wide_Legged_Forward_Bend.svg",
     "benefits": "This pose is good for stretching your hamstrings, calves, and hips; strengthening your feet, ankles, and legs; and building awareness of protecting your lower back."
   },
   {
     "id": "25",
     "name": "High lunge II",
     "sanskrit": "Ashta Chandrasana",
-    "image": "/../../Images/25_High_lunge_II.svg",
+    "sanskrit2": "-",
+    "image": "/Images/25_High_lunge_II.svg",
     "benefits": "I only include the scientifically supported benefits of High Lunge here. Plenty of claims about other supposed benefits (from the plausible to the magical to the ridiculous) have been made. To me, pseudo-scientific claims only serve to harm the yoga community, so I choose not to give them airtime here."
   }
 ]
