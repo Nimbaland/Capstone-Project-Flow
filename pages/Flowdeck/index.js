@@ -5,6 +5,7 @@ import asanas from "../db.json";
 
 export default function FavoriteAsanaCard({setAsanas}) {
   const [favorites, setFavorites] = useState([2, 3, 6, 7, 15, 19]);
+  setFavorites(1);
 
   //global State:  [favorites, setFavorites] === []--> Array mit favorites-id
 
