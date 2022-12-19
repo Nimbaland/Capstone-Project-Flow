@@ -1,12 +1,19 @@
 import styled from "styled-components";
+import Image from "next/image";
 
 export default function AsanaCard({asana}) {
   return (
     <Article>
       <TextContainer>
-        <StyledImage src={asana.image} alt={`yoga pose: ${asana.sanskrit}`} />
+        <StyledImage
+          src={asana.image}
+          alt={`yoga pose: ${asana.sanskrit}`}
+          width="150"
+          height="500"
+        />
+        <StyledName>{asana.name}</StyledName>
         <StyledSanskrit>{asana.sanskrit}</StyledSanskrit>
-        <StyledSanskrit>{asana.sanskrit2}</StyledSanskrit>
+        {/* <StyledSanskrit>{asana.sanskrit2}</StyledSanskrit> */}
       </TextContainer>
       <ButtonContainer>
         <Button>
@@ -30,7 +37,7 @@ export default function AsanaCard({asana}) {
   );
 }
 
-const Article = styled.article`
+const Article = styled.section`
   border-radius: 75px;
   background: rgba(255, 255, 255, 0.12);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -39,7 +46,7 @@ const Article = styled.article`
   border: 1px solid rgba(255, 255, 255, 0.49);
   margin: 1rem auto 0 auto;
   width: 75%;
-  height: 75vh;
+  height: 100%;
   display: flex;
   text-align: center;
   justify-content: flex-end;
@@ -76,10 +83,23 @@ const TextContainer = styled.div`
 `;
 
 const StyledSanskrit = styled.p`
-  font-size: 0.75rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1rem;
   color: lightblue;
 `;
 
-const StyledImage = styled.img`
-  height: 70vh;
+const StyledName = styled.p`
+  font-family: FarmWaveFree-Regular;
+  font-size: 2rem;
+  color: #fff;
+`;
+
+const StyledImage = styled(Image)`
+  width: 100%;
+  min-height: 20vh;
+  max-height: 100%;
+  ${props => `background-image:url(${props.a});`}
+  background-position:center;
+  background-repeat: no-repeat;
 `;
