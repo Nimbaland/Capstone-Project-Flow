@@ -1,4 +1,4 @@
-import AsanaCard from "../../components/AsanaCard";
+// import AsanaCard from "../../components/AsanaCard";
 import styled from "styled-components";
 import {useState} from "react";
 import asanas from "../db.json";
@@ -6,6 +6,7 @@ import asanas from "../db.json";
 export default function FavoriteAsanaCard({setAsanas}) {
   const [favorites, setFavorites] = useState([2, 3, 6, 7, 15, 19]);
   setFavorites(1);
+  console.log(favorites, setAsanas);
 
   //global State:  [favorites, setFavorites] === []--> Array mit favorites-id
 
@@ -15,32 +16,32 @@ export default function FavoriteAsanaCard({setAsanas}) {
 
   //mapping: filteredAsanas.map(card=>JSX-CODE)
 
-  function deleteAsana(id) {
-    setAsanas(asanas => {
-      const newAsanaFlow = asanas.filter(asana => asana.id !== id);
-      return newAsanaFlow;
-    });
-  }
+  // function deleteAsana(id) {
+  //   setAsanas(asanas => {
+  //     const newAsanaFlow = asanas.filter(asana => asana.id !== id);
+  //     return newAsanaFlow;
+  //   });
+  // }
 
-  function toggleFavorite(id) {
-    const NewAsanaArray = asanas.map(asana => {
-      if (asanas.id === id) {
-        return {
-          ...asana,
-          isFavorite: !asanas.isFavorite,
-        };
-      } else {
-        return asana;
-      }
-    });
-    setAsanas(NewAsanaArray);
-  }
+  // function toggleFavorite(id) {
+  //   const NewAsanaArray = asanas.map(asana => {
+  //     if (asanas.id === id) {
+  //       return {
+  //         ...asana,
+  //         isFavorite: !asanas.isFavorite,
+  //       };
+  //     } else {
+  //       return asana;
+  //     }
+  //   });
+  //   setAsanas(NewAsanaArray);
+  // }
   console.log(asanas);
   return (
     <>
       <StyledFavoritesSection>
         <newAsanaFlow>
-          {asanas
+          {/* {asanas
             ?.filter(asana => favorites.indexOf(Number(asana.id)) !== -1)
             .map(asana => {
               // if (asanas.isFavorite === true) {
@@ -55,7 +56,7 @@ export default function FavoriteAsanaCard({setAsanas}) {
               // } else {
               //   return null;
               // }
-            })}
+            })} */}
           {!asanas.find(asanas => asanas.isFavorite === true) ? (
             <PlaceholderText>
               You have not yet selected any asanacards.
