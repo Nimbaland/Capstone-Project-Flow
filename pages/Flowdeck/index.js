@@ -4,8 +4,8 @@ import {useState} from "react";
 import asanas from "../db.json";
 
 export default function FavoriteAsanaCard({setAsanas}) {
-  const [favorites, setFavorites] = useState([2, 3, 6, 7, 15, 19]);
-  setFavorites(1);
+  const [favorites] = useState([2, 3, 6, 7, 15, 19]);
+
   console.log(favorites, setAsanas);
 
   //global State:  [favorites, setFavorites] === []--> Array mit favorites-id
@@ -57,13 +57,9 @@ export default function FavoriteAsanaCard({setAsanas}) {
               //   return null;
               // }
             })} */}
-          {!asanas.find(asanas => asanas.isFavorite === true) ? (
-            <PlaceholderText>
-              You have not yet selected any asanacards.
-            </PlaceholderText>
-          ) : (
-            ""
-          )}
+          <PlaceholderText>
+            You have not yet selected any asanacards.
+          </PlaceholderText>
         </newAsanaFlow>
       </StyledFavoritesSection>
     </>

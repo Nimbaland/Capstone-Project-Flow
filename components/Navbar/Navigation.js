@@ -19,10 +19,10 @@ export default function Navigation() {
         <NavItem>
           <NavLink href="/flowdeck">
             <NavIcon src="/Images/flowdeck_icon_navbar.svg" />
-            <homeNavbar
+            {/* <homeNavbar
               pageState={pageState}
               onClick={() => setPageState("flow_icon_navbar.svg")}
-            />
+            /> */}
           </NavLink>
         </NavItem>
       </Navlist>
