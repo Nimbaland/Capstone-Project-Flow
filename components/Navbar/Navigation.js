@@ -17,7 +17,7 @@ export default function Navigation() {
           </NavLink>
         </NavItem>
         <NavItem>
-          <NavLink href="/flowdeck">
+          <NavLink href="/flow">
             <NavIcon src="/Images/flowdeck_icon_navbar.svg" />
             {/* <homeNavbar
               pageState={pageState}
@@ -93,25 +93,3 @@ const HomeContainer = styled.p`
       ? "background-color: rgba(255,165,0, 0.9); color:white; border: 1px solid rgba(255,165,255, 1.0);"
       : " "};
 `;
-// const ClipBoard = styled(FaClipboardList)`
-//   border-radius: 50px;
-//   padding: 22px;
-//   box-sizing: content-box;
-//   color: black;
-//   font-size: 1.2rem;
-
-//   ${props =>
-//     props.pageState === "projects"
-//       ? "background-color: rgba(255,165,0, 0.9); color:white; border: 1px solid rgba(255,165,255, 1.0);"
-//       : " "};
-// `;
-// const Profile = styled(FaUser)`
-//   border-radius: 50px;
-//   padding: 22px;
-//   box-sizing: content-box;
-//   color: black;
-//   font-size: 1.2rem;
-//   ${props =>
-//     props.pageState === "profile"
-//       ? "background-color: rgba(255,165,0, 0.9); color:white; border: 1px solid rgba(255,165,255, 1.0);"
-//       : " "};

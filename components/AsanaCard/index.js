@@ -1,7 +1,9 @@
 import styled from "styled-components";
 import Image from "next/image";
+import {useState} from "react";
 
-export default function AsanaCard({asana}) {
+export default function AsanaCard({asana, favorites, setFavorites, reloader}) {
+  const [test, setTest] = useState(false);
   return (
     <Article>
       <TextContainer>
@@ -24,7 +26,12 @@ export default function AsanaCard({asana}) {
             alt="close"
           />
         </Button>
-        <Button>
+        <Button
+          onClick={() => {
+            setFavorites([...favorites, asana.id]);
+            reloader();
+          }}
+        >
           <StyledImage
             src="/Images/noun-check-mark-1550146.svg"
             width="40"
