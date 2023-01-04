@@ -1,9 +1,7 @@
 import styled from "styled-components";
 import Image from "next/image";
-import {useState} from "react";
 
 export default function AsanaCard({asana, favorites, setFavorites, reloader}) {
-  const [test, setTest] = useState(false);
   return (
     <Article>
       <TextContainer>
@@ -15,7 +13,6 @@ export default function AsanaCard({asana, favorites, setFavorites, reloader}) {
         />
         <StyledName>{asana.name}</StyledName>
         <StyledSanskrit>{asana.sanskrit}</StyledSanskrit>
-        {/* <StyledSanskrit>{asana.sanskrit2}</StyledSanskrit> */}
       </TextContainer>
       <ButtonContainer>
         <Button>

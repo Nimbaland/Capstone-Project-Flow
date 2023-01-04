@@ -1,6 +1,5 @@
 // import AsanaCard from "../../components/AsanaCard";
 import styled from "styled-components";
-import {useState} from "react";
 import asanas from "../db.json";
 import AsanaCard from "../../components/AsanaCard";
 
@@ -34,6 +33,7 @@ export default function FavoriteAsanaCard({
     <>
       <StyledFavoritesSection>
         <div>
+          {setFavorites()}
           {asanas
             ?.filter(asana => favorites.indexOf(asana.id) !== -1)
             .map(asana => {
