@@ -2,6 +2,8 @@
 import styled from "styled-components";
 import asanas from "../db.json";
 import AsanaCard from "../../components/AsanaCard";
+import Header from "../../components/Header/Header";
+import Navigation from "../../components/Navbar/Navigation";
 
 export default function FavoriteAsanaCard({
   setAsanas,
@@ -31,9 +33,10 @@ export default function FavoriteAsanaCard({
   console.log(favorites);
   return (
     <>
+      {setFavorites()}
+      <Header />
       <StyledFavoritesSection>
         <div>
-          {setFavorites()}
           {asanas
             ?.filter(asana => favorites.indexOf(asana.id) !== -1)
             .map(asana => {
@@ -53,6 +56,7 @@ export default function FavoriteAsanaCard({
           )}
         </div>
       </StyledFavoritesSection>
+      <Navigation />
     </>
   );
 }

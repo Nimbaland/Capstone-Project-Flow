@@ -1,8 +1,6 @@
 import GlobalStyles from "../styles/GlobalStyles";
 import {useLocalStorage} from "../helpers/hook";
-import Header from "../components/Header/Header";
 import asanasData from "./db.json";
-import Navigation from "../components/Navbar/Navigation";
 import {useState} from "react";
 
 export default function MyApp({Component, pageProps}) {
@@ -11,7 +9,6 @@ export default function MyApp({Component, pageProps}) {
   return (
     <>
       <GlobalStyles />
-      <Header />
       <Component
         {...pageProps}
         asanas={asanas}
@@ -19,7 +16,6 @@ export default function MyApp({Component, pageProps}) {
         favorites={favorites}
         setFavorites={setFavorites}
       />
-      <Navigation />
     </>
   );
 }

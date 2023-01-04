@@ -8,7 +8,7 @@ export default function Navigation() {
     <Navbar>
       <Navlist>
         <NavItem>
-          <NavLink href="/">
+          <NavLink href="/asanacarddashboard">
             <NavIcon src="/Images/index_icon_navbar.svg" />
             <HomeContainer
               pageState={pageState}
