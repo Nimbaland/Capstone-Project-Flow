@@ -33,7 +33,6 @@ export default function FavoriteAsanaCard({
   console.log(favorites);
   return (
     <>
-      {setFavorites()}
       <Header />
       <StyledFavoritesSection>
         <div>

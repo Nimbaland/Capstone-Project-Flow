@@ -9,7 +9,7 @@ export default function AsanaCard({asana, favorites, setFavorites, reloader}) {
           src={asana.image}
           alt={`yoga pose: ${asana.sanskrit}`}
           width="150"
-          height="500"
+          height="250"
         />
         <StyledName>{asana.name}</StyledName>
         <StyledSanskrit>{asana.sanskrit}</StyledSanskrit>
