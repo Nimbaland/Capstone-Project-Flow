@@ -7,8 +7,8 @@ export default function Header() {
     <HeaderContainer>
       <YogaFlowLogo
         src={flowLogo}
-        width="120"
-        height="120"
+        width="180"
+        height="150"
         alt={"0_YogaFlowLogo"}
       />
     </HeaderContainer>
@@ -16,7 +16,7 @@ export default function Header() {
 }
 const YogaFlowLogo = styled(Image)`
   display: grid;
-  padding: 1rem;
+  padding: 0;
   width: 100%;
   place-content: center;
 `;

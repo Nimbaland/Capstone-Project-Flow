@@ -1,21 +1,21 @@
 import GlobalStyles from "../styles/GlobalStyles";
 import {useLocalStorage} from "../helpers/hook";
-import Header from "../components/Header";
+import asanasData from "./db.json";
+import {useState} from "react";
 
 export default function MyApp({Component, pageProps}) {
-  const [asanas, setAsanas] = useLocalStorage(
-    "id",
-    "name",
-    "sanskrit",
-    "sanskrit2",
-    "image",
-    "benefits"
-  );
+  const [asanas, setAsanas] = useLocalStorage("Asanas", asanasData);
+  const [favorites, setFavorites] = useState([]);
   return (
     <>
       <GlobalStyles />
-      <Header />
-      <Component {...pageProps} asanas={asanas} setAsanas={setAsanas} />
+      <Component
+        {...pageProps}
+        asanas={asanas}
+        setAsanas={setAsanas}
+        favorites={favorites}
+        setFavorites={setFavorites}
+      />
     </>
   );
 }
